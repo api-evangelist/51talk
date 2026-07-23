@@ -1,8 +1,26 @@
 aid: 51talk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/51talk.png
 name: 51Talk
-description: '51Talk is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: '51Talk is an online English-language education platform that connects learners with
+  certified teachers through one-on-one live video lessons. Founded in 2011 and listed on the NYSE,
+  the company operates across 90+ countries with a large base of accredited teachers, delivering a
+  structured curriculum and ready-made teaching materials for both children and adult learners.
+  Following a strategic shift, 51Talk focuses on international markets outside mainland China,
+  including the Philippines and the broader Southeast Asia region, and recruits teachers globally.
+  It is a consumer education company backed by DCM Ventures; as of this profile it publishes no
+  public developer API, SDK, or documentation surface, so this repo carries only identity and
+  domain-security signals.'
 url: https://raw.githubusercontent.com/api-evangelist/51talk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +34,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Consumer
+- Education
+- EdTech
+- Online Learning
+- English Language
+- E-Learning
+- Tutoring
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,12 @@ maintainers:
 common:
 - type: Website
   url: https://51talk.ph/
+- type: PrivacyPolicy
+  url: https://51talk.ph/privacy-policy
+- type: DomainSecurity
+  url: security/51talk-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
